@@ -1,0 +1,15 @@
+{
+  "dfx": "0.7.2",
+  "canisters": {
+    "simple_video_assets": {
+      "frontend": {
+        "entrypoint": "dist/index.html"
+      },
+      "source": [
+        "src/simple_video_assets/assets",
+        "dist/"
+      ],
+      "type": "assets"
+    }
+  }
+}
