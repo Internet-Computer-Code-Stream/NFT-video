@@ -25,7 +25,7 @@ const aliases = Object.entries(dfxJson.canisters).reduce(
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  root: "src/simple_video_assets/src",
+  root: "src/upload_form_for_urls_assets/src",
   build: {
     outDir: "../../../dist",
     emptyOutDir: true

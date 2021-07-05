@@ -1,15 +1,24 @@
 {
   "dfx": "0.7.2",
   "canisters": {
-    "simple_video_assets": {
+    "upload_form_for_urls": {
+      "main": "src/upload_form_for_urls/Main.mo",
+      "type": "motoko"
+    },
+    "upload_form_for_urls_assets": {
       "frontend": {
         "entrypoint": "dist/index.html"
       },
       "source": [
-        "src/simple_video_assets/assets",
+        "src/upload_form_for_urls_assets/assets",
         "dist/"
       ],
       "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "vessel sources"
     }
   }
 }
