@@ -7,4 +7,10 @@ Branches and their descriptions:
 
 ### Dependencies
 
-Only `vite` and Dfinity's `@dfinity/agent` package are required as most of the code is written as simply as possible in vanilla JS.
+Besides `dfx`, the `vite` build tool and Dfinity's `@dfinity/agent` package are required as most of the code is written as simply as possible in vanilla JS. The `vessel` package manager is also needed for most branches.
+
+### Attribution
+
+This code makes heavy use of the following repositories:
+* [dfinity_nft](https://github.com/SuddenlyHazel/dfinity_nft), by [SuddenlyHazel](https://github.com/SuddenlyHazel).
+* [motoko-crud](https://github.com/matthewhammer/motoko-crud), by [matthewhammer](https://github.com/matthewhammer).
